@@ -1,0 +1,24 @@
+{
+  "name": "infoxnary-demo",
+  "version": "1.0.0",
+  "description": "Infoxnary Resume Demo",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss -o public/css",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0"
+  },
+  "keywords": [
+    "OnlineResume",
+    "LiveResume"
+  ],
+  "author": "Mohammad Afzal",
+  "license": "ISC",
+  "homepage": "http://docs.infoxnary.com"
+}
