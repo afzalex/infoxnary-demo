@@ -524,3 +524,7 @@ p.quote {
 .hidden-msg {
   margin-top: -40px;
   margin-bottom: 10px; }
+
+@media screen and (max-width: 480px) {
+  .hidden-msg {
+    font-size: 0.5em; } }
